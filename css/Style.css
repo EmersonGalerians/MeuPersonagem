@@ -4,27 +4,47 @@
     margin: 0;
 }
 
+body {
+    background-image: url(/image/bokunohero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 div {
     height: 100%;
     width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
+    position: fixed;
     left: 20%;
-    box-shadow: -4px 9px 26px black
+    box-shadow: -4px 9px 26px black;
+    background-color: rgba(0, 0, 0, 78%);
 }
 
 img {
-    width: 50%;
+    width: 25%;
+    border-radius: 100%;
+    margin-bottom: 25px;
 }
 
 h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 4em;
+    color: white;
 }
 
 p {
     font-family: 'Nunito', sans-serif;
     font-size: 25px;
+    color: white;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: rgba(0, 50, 0, 78%);
+    box-shadow: -4px 9px 26px black;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    border-radius: 10px;
 }
